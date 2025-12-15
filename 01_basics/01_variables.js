@@ -11,4 +11,9 @@ accountEmail = "joshi8347@gmail.com"
 accountpassword = "8585"
 accountCity = "sidhpur"
 
-console.table([accountEmail, accountpassword, accountCity])
+
+/* 
+prefer not to use var because of issue in block scope and functional scope
+*/
+
+console.table([accountEmail, accountId, accountpassword, accountCity])
